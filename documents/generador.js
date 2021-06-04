@@ -52,8 +52,7 @@ return `
             -moz-justify-content: space-between;
             -ms-justify-content: space-between;
             justify-content: space-between;            
-            text-align: center;
-            padding: 0 100px;
+            text-align: center;            
           }
           .firmas p {
             padding-left: 0;
@@ -79,7 +78,7 @@ return `
             margin-bottom: 80px;
           }
           body {
-            background: rgb(204,204,204);
+            background: #fff;
             margin: 0;
             padding: 0; 
           }          
