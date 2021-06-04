@@ -129,7 +129,7 @@ return `
               <li>Cuando los servicios encomendados se paralicen por más de 15 días corridos, por causas imputables al “Prestador”;</li>
             </ol>    
         </div> 
-        <div>
+        <div class="page-box">
             <ol class="justify-text fontSize14">
             <li>Cuando exista notoria incapacidad técnica por parte del “Prestador” para efectuar los servicios de asistencia técnica encomendados;</li>
             <li>Cuando el “Prestador” se negara injustificada y reiteradamente a entregar los antecedentes técnicos, financieros o jurídicos solicitados por el “Mandante”, en relación al trabajo encomendado.</li>
@@ -144,7 +144,7 @@ return `
             <p class="justify-text fontSize14"><strong>NOVENO:</strong> Se deja constancia que el “Prestador” se encuentra inscrito y vigente en el Registro de Consultores del Ministerio de Vivienda y Urbanismo, según consta en el certificado de inscripción vigente que ambos declaran conocer y se entiende formar parte integrante del presente contrato.</p>
             <p class="justify-text fontSize14"><strong>DÉCIMO:</strong> La personería de don(ña) .................................................... como representante del “Prestador” ....................................... consta de .................................., que se adjunta y el documento que las partes declaran conocer.</p>
         </div>
-        <div>
+        <div class="page-box">
             <p class="justify-text fontSize14"><strong>DÉCIMO PRIMERO:</strong> El presente contrato se firma en cuatro ejemplares de igual tenor, quedando uno en poder de cada una de las partes, y otra en poder del SERVIU de la........... Región.</p> 
             <div class="firmas">
               <div class="prestador">
