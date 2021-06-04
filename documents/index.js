@@ -129,7 +129,7 @@ return `
                 </tr>
              </table>
              <br />
-             <h1 class="justify-center">Total price: ${parseInt(price1) + parseInt(price2)}$</h1>
+             <h2 class="justify-center">Total price: ${parseInt(price1) + parseInt(price2)}$</h2>
              
           </div>
           
