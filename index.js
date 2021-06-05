@@ -21,18 +21,14 @@ dbConnection();
 app.use(cors());
 
 // Directorio publico
-app.use( express.static('public') );
+app.use( express.static('public') );     
 
-// if (process.env.NODE_ENV === 'production') {
-//     // Exprees will serve up production assets
-//     app.use(express.static('public'));
+// Express serve up index.html file if it doesn't recognize route
+const path = require('path');
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
+});
 
-//     // Express serve up index.html file if it doesn't recognize route
-//     const path = require('path');
-//     app.get('*', (req, res) => {
-//         res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
-//     });
-// }
 
 // Lectura y parseo del body
 app.use(express.json());
