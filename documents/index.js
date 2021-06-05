@@ -9,7 +9,7 @@ return `
           <style>
              .invoice-box {
              max-width: 800px;
-             height: 1030px;
+             height: 1020px;
              margin: auto;
              margin-bottom: 20px;             
              padding: 30px;             
