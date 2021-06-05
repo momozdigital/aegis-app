@@ -21,14 +21,7 @@ dbConnection();
 app.use(cors());
 
 // Directorio publico
-app.use( express.static('public') );     
-
-// Express serve up index.html file if it doesn't recognize route
-const path = require('path');
-app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
-});
-
+app.use( express.static('public') );
 
 // Lectura y parseo del body
 app.use(express.json());
